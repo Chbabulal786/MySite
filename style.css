@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container ul {
+    list-style-type: none;
+    text-align: center;
+    /* background-image: url(bg.jpg); */
+
+}
+
+.li1 {
+    height: 25px;
+    width: 250px;
+    margin: 25px;
+    margin-top: 205px;
+    margin-left: 580px;
+    font-family: Verdana;
+    font-style: italic;
+    font-size: large;
+    color: black;
+    background-color: rgb(255, 215, 215);
+    border: 4px solid red;
+    animation-name: li1;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes li1 {
+    form {
+        width: 50px;
+    }
+
+    to {
+        width: 50px;
+    }
+}
+
+.li2 {
+    height: 25px;
+    width: 250px;
+    margin: 25px;
+    margin-top: 25px;
+    margin-left: 580px;
+    font-family: Verdana;
+    font-style: italic;
+    font-size: large;
+    color: white;
+    background-color: black;
+    border: 4px solid red;
+    animation-name: li1;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes li2 {
+    form {
+        width: 50px;
+    }
+
+    to {
+        width: 50px;
+    }
+}
+
+.li3 {
+    height: 25px;
+    width: 250px;
+    margin: 25px;
+    margin-top: 25px;
+    margin-left: 580px;
+    font-family: Verdana;
+    font-style: italic;
+    font-size: large;
+    color: black;
+    background-color: lightslategrey;
+    border: 4px solid lightgreen;
+    animation-name: li3;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes li3 {
+    form {
+        width: 115px;
+    }
+
+    to {
+        width: 115px;
+    }
+}
+
+.li4 {
+    height: 25px;
+    width: 250px;
+    margin: 25px;
+    margin-top: 25px;
+    margin-left: 580px;
+    font-family: Verdana;
+    font-style: italic;
+    font-size: large;
+    color: white;
+    background-color: black;
+    border: 4px solid lightgreen;
+    animation-name: li4;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes li4 {
+    form {
+        width: 115px;
+    }
+
+    to {
+        width: 115px;
+    }
+}
+
+.li5 {
+    height: 25px;
+    width: 300px;
+    margin: 25px;
+    margin-top: 25px;
+    margin-left: 580px;
+    font-family: Verdana;
+    font-style: italic;
+    font-size: large;
+    color: whitesmoke;
+    background-color: rgb(29, 113, 196);
+    border: 4px solid lightgreen;
+    animation-name: li5;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes li5 {
+    form {
+        width: 215px;
+    }
+
+    to {
+        width: 215px;
+    }
+}
